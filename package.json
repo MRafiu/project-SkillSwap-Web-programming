@@ -1,0 +1,12 @@
+{
+  "name": "skill-swap-web",
+  "version": "1.0.0",
+  "description": "SkillSwap: Trade Skills Instead of Money",
+  "type": "module",
+  "scripts": {
+    "dev": "node dev.js",
+    "start": "node dev.js",
+    "backend": "npm --prefix skillswap-backend run dev",
+    "frontend": "npm --prefix skillswap-frontend run dev"
+  }
+}
